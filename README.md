@@ -4,7 +4,7 @@
 
 ## Usage
 ```ts
-import WindowsServices from 'https://raw.githubusercontent.com/rafaelferres/deno-windows/1.0.0/mod.ts';
+import WindowsServices from 'https://deno.land/x/deno_windows/mod.ts';
 
 // list all windows services
 let services = WindowsServices.getServicesList().then((services) => {
@@ -31,7 +31,7 @@ WindowsServices.stopService("win").then((services) => {
 or using async/await
 
 ```ts
-import WindowsServices from 'https://raw.githubusercontent.com/rafaelferres/deno-windows/1.0.0/mod.ts';
+import WindowsServices from 'https://deno.land/x/deno_windows/mod.ts';
 
 let services = await WindowsServices.getServicesList();
 console.log(services); // list all windows services
