@@ -1,7 +1,5 @@
 # Deno-Windows
 
-[![CI](https://github.com/rafaelferres/deno-windows/workflows/CI/badge.svg)](https://github.com/rafaelferres/deno-windows/actions?query=workflow%3ACI)
-
 > Simple windows service controller
 
 ## Usage
